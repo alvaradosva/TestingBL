@@ -4,14 +4,14 @@ permalink: "/people/"
 layout: page
 ---
 
-   {% for post in site.posts %}
+   {% for employee in site.employees %}
         <li class="post__item">
-          <a class="post__title" href="{{ post.url | prepend: site.baseurl }}">THIS POST HAS CHANGED</a>
+          <a class="post__title" href="{{ employee.url | prepend: site.baseurl }}">THIS POST HAS CHANGED</a>
           <div class="post__meta">
             <b class="post__author"></b>
             <b class="post__sep">&#x25cf;</b>
-            <b class="post__date">{{ post.date | date: "%b %-d, %Y" }}</b>
+            <b class="post__date">{{ employee.date | date: "%b %-d, %Y" }}</b>
           </div>
-          <a class="btn--default" href="{{ post.url | prepend: site.baseurl }}">CHANGED</a>
+          <a class="btn--default" href="{{ employee.url | prepend: site.baseurl }}">CHANGED</a>
         </li>
       {% endfor %}
