@@ -1,10 +1,16 @@
-# Site settings
+---
 title: WebConfs - A blog about web conferences
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: coolwebconfs@gmail.com
 description: A blog about my favorite web conferences.
-url: "http://webconfs.me" # the base hostname & protocol for your site
+url: http://webconfs.me
 twitter_username: guilh
-
-# Build settings
 markdown: kramdown
-permalink: /:title
+permalink: "/:title"

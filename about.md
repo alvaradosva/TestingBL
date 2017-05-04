@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 This is a simple blog about all the web conferences I like to attend.
