@@ -2,6 +2,9 @@
 title: WebConfs - A blog about web conferences
 timezone: UTC
 collections:
+  employees:
+    title: Employees
+    output: true
   posts:
     title: Posts
     output: true
